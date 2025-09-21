@@ -1,0 +1,248 @@
+/* ===== BODY ===== */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: plum;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: purple;
+  color: wheat;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1, 
+header h2 {
+  font-size: 50px;
+}
+
+nav a {
+  color: wheat;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+nav a:hover {
+  background-color: plum;
+  border-radius: 8px;
+  color: black;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  color: black;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 50px;
+}
+
+.hero img{
+    width: 100%;
+    height: 400px;
+    display: block;       
+    margin: 0 auto;   
+}
+
+/* ===== TOURIST SPOTS ===== */
+.spot {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.spot img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 30%;
+  height: 700px;
+}
+
+.spot h3 {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.spot p {
+  margin-bottom: 10px;
+}
+
+.hashtags {
+  color: black;
+  font-size: 14px;
+}
+
+/* ===== PRODUCTS ===== */
+.products {
+  padding: 40px 20px;
+}
+
+.products h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.productg {
+  display: flex;
+  flex-wrap: wrap;     
+  justify-content: space-between;
+}
+
+.product-card {
+  background: palevioletred;
+  width: 23%;            
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-card h4 {
+  margin: 5px 0;
+  font-size: 18px;
+  color: black;
+}
+
+.product-card p {
+  margin: 5px 0 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-card button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product-card button:first-of-type {
+  background: purple;
+  color: #fff;
+}
+
+.product-card button:last-of-type {
+  background: #aaa;
+  color: #fff;
+}
+
+.product-card button:hover {
+  opacity: 0.85;
+}
+
+/* ===== CONTACT PAGE ===== */
+.contact-form {
+  display: flex;
+  flex-direction: column;             
+  max-width: 650px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);  
+  color: black;
+  text-align: center;  
+  padding: 10px; 
+  margin: 0 auto;
+  background-color: palevioletred;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-form input {
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 15px;   
+  width: 93%;           
+}
+
+.contact-form textarea {
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 93%;
+  resize: vertical;       
+}
+
+.contact-form button {
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-form button:hover {
+  background-color: pink;
+}
+/* ===== ASIDE PROFILE ===== */
+aside {
+  width: 20%;
+  background: palevioletred;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 20px;
+}
+
+aside img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+aside h4{
+  margin: 10px 0 5px;
+  color: black;
+}
+
+.map {
+  flex: 1 1 40%;
+  min-width: 100px;
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: purple;
+  color: wheat;
+  text-align: center;
+  padding: 15px;
+}
